@@ -1,0 +1,68 @@
+title:            'Wax Demo'
+description:      'Minimal Exhibitions with Jekyll'
+url:              'https://mnyrop.github.io/wax-kit'
+# baseurl:          ''
+copyright:        ''
+
+theme: wax_theme
+source: src
+jekyll_plugins:
+  - 'jekyll-feed'
+
+collections:
+  items: # name of collection
+    output: true # makes sure pages are output as html files
+    layout: 'item' # the layout for the pages to use
+    metadata:
+      source: 'item_records.csv' # path to the metadata file within `_data`
+    images:
+      source: 'item_assets' # path to the directory of images within `_data`
+
+search:
+  main:
+    index: '/search/index.json' # file the index will get written to
+    collections:
+      items:
+        content: false # whether or not to index page content
+        fields: # the metadata fields to index
+          - artist
+          - location
+          - label
+          - _date
+          - object_type
+          - current_location
+
+menu:
+  - label: 'About'
+    sub:
+      - label: 'Wax'
+        link: '/about/'
+      - label: 'Documentation'
+        link: 'https://minicomp.github.io/wiki/wax/'
+      - label: 'Credits'
+        link: '/credits/'
+  - label: 'Exhibits'
+    sub:
+      - label: 'Inline Parallax Image'
+        link: '/exhibits/a/'
+      - label: 'Inline Image References'
+        link: '/exhibits/b/'
+  - label: 'Browse'
+    link: '/collection/'
+  - label: 'Search'
+    link: '/search/'
+  - label: 'Reuse'
+    link: '/reuse/'
+
+footer:
+  links:
+    - label: 'GitHub'
+      link: 'https://github.com/minicomp/wax'
+    - label: 'Credits'
+      link: '/credits'
+    - label: 'Wiki'
+      link: 'https://minicomp.github.io/wiki/wax/'
+  logos:
+    - img: '/assets/logo.png'
+
+# FIN

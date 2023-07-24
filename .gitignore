@@ -23,3 +23,11 @@ Gemfile.lock
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+wax_theme
+wax_tasks
