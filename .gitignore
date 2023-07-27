@@ -31,3 +31,6 @@ _site
 
 wax_theme
 wax_tasks
+wax_cli
+
+src/img/derivatives/iiif

@@ -1,0 +1,18 @@
+- label: 'Label'
+  value: record.label
+- label: 'Artist'
+  value: record.artist
+- label: 'Type'
+  value: record.object_type
+- label: 'Location'
+  value: record.location
+- label: 'Current Location'
+  value: record.current_location
+- label: 'Date'
+  value: record._date
+- label: 'Source'
+  value: record.source
+  type:  link
+- label: 'IIIF Manifest'
+  value: record.manifest
+  type:  link

@@ -1,0 +1,28 @@
+title:            'Wax Demo'
+description:      'Minimal Exhibitions with Jekyll'
+url:              'https://mnyrop.github.io/wax-kit'
+copyright:        ''
+
+theme: wax_theme
+source: src
+
+collections:
+  demo:
+    output: true # needs to be true for jekyll to render pages to _site
+    wax:
+      assets: 'assets' # REQUIRED(?) – path to folder of assets (images) relative to wax/<name>
+      records: 'records.csv' # REQUIRED - path to file of metadata records relative to wax/<name>
+      dictionary: 'dictionary.yml' # REQUIRED(?) – path to dictionary yaml file relative to wax/<name>
+      build: # steps to run/invoke with `wax build`
+        simple_images:
+          variants: # default is banner: 1140 and thumb: 400
+            banner: 1140
+            thumb: 400
+        iiif:
+          scale_factors: [] # need to figure out default
+          exclude: [] # default metadata is from dictionary.yml, uses eveything by default
+        pages: 
+          layout: item.html # item.html is default; that layout should exist in theme and use dictionary.yml
+        search:
+          exclude: [] # default metadata is from dictionary.yml, uses eveything by default
+          index: '/search/indexes/demo.json' # '/search/indexes/<collection_name>.json' is the default

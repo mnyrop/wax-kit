@@ -2,16 +2,16 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~> 4.3.2'
 
-# gem 'wax_theme'
-gem 'wax_theme', github: 'mnyrop/wax-v2-theme', branch: 'main'
+
+gem 'wax_theme', github: 'mnyrop/wax_theme', branch: 'main'
 # gem 'wax_theme', path: 'wax_theme'
 
-# gem 'wax_tasks'
-gem 'wax_tasks', github: 'minicomp/wax_tasks', branch: 'bug/jekyll-src-dir-92'
-# gem 'wax_tasks', path: 'wax_tasks'
+gem 'wax_cli', github: 'mnyrop/wax_cli', branch: 'main'
+# gem 'wax_cli', path: 'wax_cli'
 
-group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12'
+group :development, :test do 
+  gem 'html-proofer'
+  gem 'rake', '~> 13.0'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

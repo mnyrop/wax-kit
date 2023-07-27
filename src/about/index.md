@@ -42,5 +42,5 @@ Below is a diagram to give you a zoomed-out view. In summary, you create a file 
 
 From there, you can run tests on your site to catch errors and decide where and how to put it online or in offline media.
 
-[![workflow diagram](/assets/wax_workflow.jpg)](/assets/wax_workflow.jpg)
+[![workflow diagram]({% link /assets/wax_workflow.jpg %})]({% link /assets/wax_workflow.jpg %})
 
