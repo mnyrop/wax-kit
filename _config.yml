@@ -5,14 +5,12 @@ baseurl:          ''
 copyright:        ''
 
 theme: wax_theme
-source: src
+source: source
 
 collections:
   demo:
     output: true
-    wax:
-      build:
-        simple_images:
-        iiif:
-        pages: 
-        search:
+    build:
+      simple_images:
+      iiif:
+      pages:
