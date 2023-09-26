@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Wax Demo
+  </title>
+
+  <link rel='canonical' href='https://mnyrop.github.io/wax-kit/'/>
+  <link rel='icon' type='image/png' href="https://mnyrop.github.io/wax-kit/assets/logo.png">
+  <link rel='stylesheet' href="https://mnyrop.github.io/wax-kit/assets/styles.css"/>
+
+  <script type='text/javascript' src="https://mnyrop.github.io/wax-kit/assets/jquery-3.2.1.min.js"></script>
+</head>
+
+
+  <body>
+    <time datetime='2023-09-26 21:41'></time>
+    <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
+ <div class='wax-inline-container'>
+    <a class='navbar-brand' href="https://mnyrop.github.io/wax-kit/" title='Home'>
+      Wax Demo
+    </a>
+
+    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+
+    <div class='collapse navbar-collapse' id="wax-header-navbar">
+      <ul class='nav navbar-nav ml-auto justify-content-end'>
+        
+          
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-about-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                About
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-about-dropdown'>
+                
+                  <a class='dropdown-item' href='https://mnyrop.github.io/wax-kit/about/'>Wax</a>
+                
+                  <a class='dropdown-item' href='https://minicomp.github.io/wiki/wax/'>Documentation</a>
+                
+                  <a class='dropdown-item' href='https://mnyrop.github.io/wax-kit/about/credits/'>Credits</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-exhibits-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                Exhibits
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-exhibits-dropdown'>
+                
+                  <a class='dropdown-item' href='https://mnyrop.github.io/wax-kit/exhibits/a/'>Inline Parallax Image</a>
+                
+                  <a class='dropdown-item' href='https://mnyrop.github.io/wax-kit/exhibits/b/'>Inline Image References</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='https://mnyrop.github.io/wax-kit/collection/'>Browse</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+ </nav>
+
+
+    
+      
+      <div class='wax-parallax full-width top-banner'>
+  <div class='parallax-image' style="background-image: url('https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/full_image.jpg');
+  background-position: 0% 25%;
+  
+  cursor: pointer;
+  
+  
+  height: 500px !important;" onclick="window.location='https://mnyrop.github.io/wax-kit/demo/obj10.html'; return false;"></div>
+
+  
+  <div class='parallax-caption'>
+    <div class='wax-inline-container'>
+      Above: <a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'>Portrait of Hasan 'Ali Mirza Shuja al-Saltana</a>
+    </div>
+  </div>
+  
+</div>
+
+    
+
+    <div id='wax-main'>
+      <div id='wax-content' class='wax-inline-container'>
+        
+
+<p><strong>Wax</strong> is a <a href="https://go-dh.github.io/mincomp/">minimal computing</a> project for producing digital exhibitions focused on longevity, low costs, and flexibility. Our underlying technology is made to learn and to teach, and can produce beautifully rendered, high-quality image collections and scholarly exhibits. To start using Wax, please see our <a href="https://minicomp.github.io/wiki/wax/">documentation</a> for installation instructions and more.</p>
+
+<p>The collection demo in this demo are from The Museum of Islamic Art, Qatar, (courtesy of <a href="https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar">WikiMedia</a> and <a href="https://www.google.com/culturalinstitute/about/artproject/">Google Art Project</a>) and The Qatar National Library (via <a href="https://www.wdl.org/en/">World Digital Library</a>).</p>
+
+<h3 id="browse-the-collection">Browse the Collection</h3>
+
+<h4 id="by-item-type">By Item Type</h4>
+
+<div id="facet-by-object-type-collection-demo-container" class="wax-gallery-container full-width">
+  <div class="wax-inline-container">
+    
+    <div id="facet-by-object-type-collection-demo-facet-buttons" class="facet-buttons"></div>
+    
+    <div id="wax-gallery-facet-by-object-type-collection-demo" class="wax-gallery"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+      let container = $('#facet-by-object-type-collection-demo-container');
+      let gallery = $('#wax-gallery-facet-by-object-type-collection-demo');
+      let buttonDiv = $('#facet-by-object-type-collection-demo-facet-buttons');
+
+
+      gallery.append("<div class='gallery-item manuscript all'><a href='https://mnyrop.github.io/wax-kit/demo/obj1.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg' alt='The Dala&#39;il al-Khayrat of al-Juzuli'/><div class='overlay'><p class='info'>The Dala&#39;il al-Khayrat of al-Juzuli</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item portrait all'><a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg' alt='Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana'/><div class='overlay'><p class='info'>Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item portrait all'><a href='https://mnyrop.github.io/wax-kit/demo/obj11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg' alt='Portrait of Sheikh Ali Mirza'/><div class='overlay'><p class='info'>Portrait of Sheikh Ali Mirza</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item manuscript all'><a href='https://mnyrop.github.io/wax-kit/demo/obj12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg' alt='Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)'/><div class='overlay'><p class='info'>Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item manuscript all'><a href='https://mnyrop.github.io/wax-kit/demo/obj2.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg' alt='Sulwan Al-Muta&#39;a'/><div class='overlay'><p class='info'>Sulwan Al-Muta&#39;a</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item map all'><a href='https://mnyrop.github.io/wax-kit/demo/obj3.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg' alt='Map of the World'/><div class='overlay'><p class='info'>Map of the World</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item manuscript all'><a href='https://mnyrop.github.io/wax-kit/demo/obj4.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg' alt='Faridun crosses the River Dijla, fol. 33v'/><div class='overlay'><p class='info'>Faridun crosses the River Dijla, fol. 33v</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item panel all'><a href='https://mnyrop.github.io/wax-kit/demo/obj5.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg' alt='Panel from Iran'/><div class='overlay'><p class='info'>Panel from Iran</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item manuscript all'><a href='https://mnyrop.github.io/wax-kit/demo/obj6.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg' alt='Diwan of Jami Manuscript'/><div class='overlay'><p class='info'>Diwan of Jami Manuscript</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item manuscript all'><a href='https://mnyrop.github.io/wax-kit/demo/obj7.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg' alt='Page from the Shahnama'/><div class='overlay'><p class='info'>Page from the Shahnama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item panel all'><a href='https://mnyrop.github.io/wax-kit/demo/obj8.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg' alt='Silk Tapestry Depicting the story of Leila and Majnun'/><div class='overlay'><p class='info'>Silk Tapestry Depicting the story of Leila and Majnun</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item portrait all'><a href='https://mnyrop.github.io/wax-kit/demo/obj9.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg' alt='Portrait of Fath &#39;Ali Shah'/><div class='overlay'><p class='info'>Portrait of Fath &#39;Ali Shah</p></div></div></a></div>");
+      
+
+      
+        var facets = Array.from(new Set(['manuscript', 'portrait', 'portrait', 'manuscript', 'manuscript', 'map', 'manuscript', 'panel', 'manuscript', 'manuscript', 'panel', 'portrait']));
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+
+        for (i in facets) {
+          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+        }
+
+        $(document).ready(function(){
+          $("#facet-by-object-type-collection-demo-container .facet").click(function(){
+            var filterValue = $(this).attr('data-filter');
+            $('#facet-by-object-type-collection-demo-container .facet').removeClass('active');
+            $(this).addClass('active');
+            if(filterValue == 'all') { $('#facet-by-object-type-collection-demo-container .all').show('slow'); }
+            else { $('#facet-by-object-type-collection-demo-container .all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+          });
+        });
+      
+    });
+  </script>
+
+
+
+      </div>
+    </div>
+
+    <footer id='wax-footer' class='page-footer container-fluid'>
+  <div class='wax-inline-container'>
+    <div class='row'>
+      <div class='col'>
+        <p class='footer-title'>Wax Demo</p>
+        <p class='footer-description'>Minimal Exhibitions with Jekyll</p>
+        <p class='footer-copyright'>
+          
+          Built with <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
+        </p>
+      </div>
+      <div class='col'>
+        <p class='footer-title'>Links</p>
+        <p class='footer-links'>
+          
+            <a href='https://github.com/minicomp/wax'>
+              GitHub
+            </a>
+           / 
+          
+            <a href='https://mnyrop.github.io/wax-kit/about/credits/'>
+              Credits
+            </a>
+           / 
+          
+            <a href='https://minicomp.github.io/wiki/wax/'>
+              Wiki
+            </a>
+          
+          
+        </p>
+        <p class='footer-logos'>
+          
+          
+          <a href="https://mnyrop.github.io/wax-kit/" aria-label="Logo link to resource">
+            <img src='https://mnyrop.github.io/wax-kit/assets/logo.png' alt="logo"/>
+          </a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script type='text/javascript' async defer src='https://mnyrop.github.io/wax-kit/assets/bootstrap/bootstrap.min.js'></script>
+    <script type='text/javascript' async defer src='https://mnyrop.github.io/wax-kit/assets/popper.min.js'></script>
+  </body>
+</html>

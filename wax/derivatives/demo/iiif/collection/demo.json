@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/collection/demo.json",
+  "@type": "sc:Collection",
+  "label": "demo",
+  "manifests": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj10/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj11/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/demo/iiif/obj12/manifest.json",
+      "@type": "sc:Manifest",
+      "label": ""
+    }
+  ]
+}
