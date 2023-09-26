@@ -9,6 +9,14 @@ source: source
 search_dir: search
 collections_dir: ''
 
+search:
+  site:
+    index: 'wax/search/site.json'
+    full_site: true
+  demo:
+    index: 'wax/search/demo.json'
+    collections: [demo]
+
 collections:
   demo:
     output: true
@@ -24,9 +32,7 @@ collections:
           thumbnail: 400
       iiif:
         scale_factors: []
-        exclude: []
       pages: 
         layout: item
       search:
-        exclude: []
         index: '/search/index/demo.json'

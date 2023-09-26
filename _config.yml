@@ -8,10 +8,6 @@ theme: wax_theme
 source: source
 collections_dir: _collections
 
-search:
-  all: # need to renamed
-    all: true
-
 collections:
   demo:
     output: true
