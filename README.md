@@ -31,17 +31,17 @@
     ~~>
     ```sh 
     .
-    ├── .wax-cache
     ├── Gemfile
     ├── README.md
     ├── _config.yml
     ├── _site
     └── source # the jekyll site source lives tidied here
         └── _data
-            └── my_collection # renamed!
-                ├── assets # replaced!
-                ├── dictionary.yml # replaced!
-                └── records.csv # replaced!
+        |   └── my_collection # renamed!
+        |       ├── assets # replaced!
+        |       ├── dictionary.yml # replaced!
+        |       └── records.csv # replaced!
+        └── wax # where derivatives will go    
     ```
 6. Update your repo's config to reference your new collection `my_collection`:
     ```yaml
