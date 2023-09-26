@@ -1,16 +1,22 @@
 title:            'Wax Demo'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'https://mnyrop.github.io/wax-kit'
-baseurl:          ''
+url:              'https://mnyrop.github.io'
+baseurl:          '/wax-kit'
 copyright:        ''
 
 theme: wax_theme
 source: source
+collections_dir: _collections
+
+search:
+  all: # need to renamed
+    all: true
 
 collections:
   demo:
     output: true
     build:
       simple_images:
-      iiif:
       pages:
+      iiif:
+

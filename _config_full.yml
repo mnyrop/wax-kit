@@ -1,6 +1,7 @@
 title:            'Wax Demo'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'https://mnyrop.github.io/wax-kit'
+url:              'https://mnyrop.github.io'
+baseurl:          '/wax-kit'
 copyright:        ''
 
 theme: wax_theme
@@ -13,19 +14,19 @@ collections:
     output: true
     sort_by: order
     data:
-      assets: '_data/collections/demo/assets'
-      records: '_data/collections/demo/records.csv'
-      dictionary: '_data/collections/demo/dictionary.yml'
+      assets: 'assets'
+      records: 'records.csv'
+      dictionary: 'dictionary.yml'
     build:
       simple_images:
         variants:
-          banner: 1140
-          thumb: 400
+          full: 1140
+          thumbnail: 400
       iiif:
         scale_factors: []
         exclude: []
       pages: 
-        layout: item.html
+        layout: item
       search:
         exclude: []
         index: '/search/index/demo.json'

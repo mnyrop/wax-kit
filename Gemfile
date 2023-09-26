@@ -3,11 +3,13 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 4.3.2'
 
 
-gem 'wax_theme', github: 'mnyrop/wax_theme', branch: 'main'
-# gem 'wax_theme', path: 'wax_theme'
+gem 'wax_theme',  github: 'mnyrop/wax_theme',  branch: 'chore/wax_cli'
+gem 'wax_cli',    github: 'mnyrop/wax_cli',    branch: 'main'
+gem 'wax_iiif',   github: 'minicomp/wax_iiif', branch: 'chore/wax_cli'
 
-gem 'wax_cli', github: 'mnyrop/wax_cli', branch: 'main'
-# gem 'wax_cli', path: 'wax_cli'
+# gem 'wax_theme',  path: 'wax_theme'
+# gem 'wax_cli',    path: 'wax_cli'
+# gem 'wax_iiif',   path: 'wax_iiif'
 
 group :development, :test do 
   gem 'html-proofer'
