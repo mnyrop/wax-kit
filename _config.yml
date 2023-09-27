@@ -4,7 +4,7 @@ url:              'https://mnyrop.github.io'
 baseurl:          '/wax-kit'
 copyright:        ''
 
-theme: wax_theme
+theme: wax-theme
 source: source
 collections_dir: _collections
 

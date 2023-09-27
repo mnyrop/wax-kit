@@ -29,8 +29,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 
-wax_theme
-wax_tasks
-wax_cli
+wax-theme
+wax-cli
 
 derivatives/iiif
+wax/derivatives
