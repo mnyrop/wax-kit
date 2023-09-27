@@ -33,4 +33,4 @@ wax-theme
 wax-cli
 
 derivatives/iiif
-wax/derivatives
+source/wax/derivatives
