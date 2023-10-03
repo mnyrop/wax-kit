@@ -15,10 +15,10 @@ jobs:
         with:
           bundler-cache: true
       - name: lint
-        run: bundle exec wax lint collection demo
+        run: bundle exec wax lint collection panoramas
       - name: build
         run: |  
-          bundle exec wax build collection demo
+          bundle exec wax build collection panoramas
           bundle exec jekyll build
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
