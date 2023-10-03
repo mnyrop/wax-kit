@@ -3,18 +3,42 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_08/manifest.json",
   "@type": "sc:Manifest",
   "label": "Geometric Prospectivity of Snowy Mountains",
-  "metadata": {
-    "description_original": "Prospect géométrique des montagnes neigées",
-    "description_en": "Geometric prospectivity of snowy mountains",
-    "source": "https://commons.wikimedia.org/wiki/File:Prospect_g%C3%A9om%C3%A9trique.jpg",
-    "location_name": "Pilatus",
-    "country": "Switzerland",
-    "coordinates": "46.98055839611903, 8.254469831908128",
-    "_date": "1755",
-    "creators": [
-      "Jacques-Barthélemy Micheli du Crest"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Prospect géométrique des montagnes neigées"
+    },
+    {
+      "label": "description_en",
+      "value": "Geometric prospectivity of snowy mountains"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Prospect_g%C3%A9om%C3%A9trique.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Pilatus"
+    },
+    {
+      "label": "country",
+      "value": "Switzerland"
+    },
+    {
+      "label": "coordinates",
+      "value": "46.98055839611903, 8.254469831908128"
+    },
+    {
+      "label": "_date",
+      "value": "1755"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Jacques-Barthélemy Micheli du Crest"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_08_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

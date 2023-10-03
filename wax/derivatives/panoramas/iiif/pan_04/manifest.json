@@ -3,19 +3,43 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_04/manifest.json",
   "@type": "sc:Manifest",
   "label": "Rosetta Panorama",
-  "metadata": {
-    "description_original": "Panorama der Rosetta in der Pala-Gruppe (Gruppe von Primör) 2810 m aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1884 Band 15",
-    "description_en": "Panorama of the Rosetta in the Pala Group (Primör Group) 2810 m from the magazine of the German and Austrian Alpine Association 1884 Volume 15",
-    "source": "https://commons.wikimedia.org/wiki/File:Panorama_der_Rosetta_in_der_Pala-Gruppe.jpg",
-    "location_name": "Pale di San Martino",
-    "country": "Italy",
-    "coordinates": "46.27136222600771, 11.839077767054368",
-    "_date": "1884",
-    "creators": [
-      "Johannes Frischauf",
-      "  Julius Ritter von Siegl"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Panorama der Rosetta in der Pala-Gruppe (Gruppe von Primör) 2810 m aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1884 Band 15"
+    },
+    {
+      "label": "description_en",
+      "value": "Panorama of the Rosetta in the Pala Group (Primör Group) 2810 m from the magazine of the German and Austrian Alpine Association 1884 Volume 15"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Panorama_der_Rosetta_in_der_Pala-Gruppe.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Pale di San Martino"
+    },
+    {
+      "label": "country",
+      "value": "Italy"
+    },
+    {
+      "label": "coordinates",
+      "value": "46.27136222600771, 11.839077767054368"
+    },
+    {
+      "label": "_date",
+      "value": "1884"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Johannes Frischauf",
+        "  Julius Ritter von Siegl"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

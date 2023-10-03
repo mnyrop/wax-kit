@@ -3,15 +3,30 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_10/manifest.json",
   "@type": "sc:Manifest",
   "label": "Landscape with a Solitary Traveler",
-  "metadata": {
-    "description_en": "Landscape with a Solitary Traveler, Japan, Edo period, Hanging scroll; ink and light colors on silk",
-    "source": "https://commons.wikimedia.org/wiki/File:%27Landscape_with_a_Solitary_Traveler%27_by_Yosa_Buson.jpg",
-    "country": "Japan",
-    "_date": "1780",
-    "creators": [
-      "Yosa Buson"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_en",
+      "value": "Landscape with a Solitary Traveler, Japan, Edo period, Hanging scroll; ink and light colors on silk"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:%27Landscape_with_a_Solitary_Traveler%27_by_Yosa_Buson.jpg"
+    },
+    {
+      "label": "country",
+      "value": "Japan"
+    },
+    {
+      "label": "_date",
+      "value": "1780"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Yosa Buson"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_10_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

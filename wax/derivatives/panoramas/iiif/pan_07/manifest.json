@@ -3,18 +3,42 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_07/manifest.json",
   "@type": "sc:Manifest",
   "label": "Rosenik Panorama",
-  "metadata": {
-    "description_original": "Panorama vom Rosenik (2434 m) aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1881 Band 12",
-    "description_en": "Panorama from Rosenik (2434 m) from the magazine of the German and Austrian Alpine Association 1881 Volume 12",
-    "source": "https://commons.wikimedia.org/wiki/File:Panorama_vom_Rosenik.jpg",
-    "location_name": "Rosennock",
-    "country": "Austria",
-    "coordinates": "46.878035180060365, 13.711946518545625",
-    "_date": "1881",
-    "creators": [
-      "Alfred Zoff"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Panorama vom Rosenik (2434 m) aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1881 Band 12"
+    },
+    {
+      "label": "description_en",
+      "value": "Panorama from Rosenik (2434 m) from the magazine of the German and Austrian Alpine Association 1881 Volume 12"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Panorama_vom_Rosenik.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Rosennock"
+    },
+    {
+      "label": "country",
+      "value": "Austria"
+    },
+    {
+      "label": "coordinates",
+      "value": "46.878035180060365, 13.711946518545625"
+    },
+    {
+      "label": "_date",
+      "value": "1881"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Alfred Zoff"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_07_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

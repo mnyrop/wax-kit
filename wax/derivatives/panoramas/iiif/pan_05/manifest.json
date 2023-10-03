@@ -3,18 +3,42 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_05/manifest.json",
   "@type": "sc:Manifest",
   "label": "Raschötz Panorama",
-  "metadata": {
-    "description_original": "Panorama vom Raschötz 2278 m in Gröden aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1887 Band 18",
-    "description_en": "Panorama from Raschötz 2278 m in Val Gardena from the magazine of the German and Austrian Alpine Association 1887 Volume 18",
-    "source": "https://commons.wikimedia.org/wiki/File:Panorama_Resciesa_Julius_Ritter_1887.jpg",
-    "location_name": "Rasciesa",
-    "country": "Italy",
-    "coordinates": "46.627675389885155, 11.65424590809997",
-    "_date": "1887",
-    "creators": [
-      "Julius Ritter von Siegl"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Panorama vom Raschötz 2278 m in Gröden aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1887 Band 18"
+    },
+    {
+      "label": "description_en",
+      "value": "Panorama from Raschötz 2278 m in Val Gardena from the magazine of the German and Austrian Alpine Association 1887 Volume 18"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Panorama_Resciesa_Julius_Ritter_1887.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Rasciesa"
+    },
+    {
+      "label": "country",
+      "value": "Italy"
+    },
+    {
+      "label": "coordinates",
+      "value": "46.627675389885155, 11.65424590809997"
+    },
+    {
+      "label": "_date",
+      "value": "1887"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Julius Ritter von Siegl"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_05_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

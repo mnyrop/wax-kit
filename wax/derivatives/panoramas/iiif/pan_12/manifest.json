@@ -3,16 +3,34 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_12/manifest.json",
   "@type": "sc:Manifest",
   "label": "Landscapes of the Four Seasons ",
-  "metadata": {
-    "description_original": "明 謝時臣 四時佳興圖 軸 四幅",
-    "description_en": "Four Seasons of Joy and Happiness, four scrolls",
-    "source": "https://commons.wikimedia.org/wiki/File:%E6%98%8E_%E8%AC%9D%E6%99%82%E8%87%A3_%E5%9B%9B%E6%99%82%E4%BD%B3%E8%88%88%E5%9C%96_%E8%BB%B8_%E5%9B%9B%E5%B9%85-Landscapes_of_the_Four_Seasons_MET_DP227758.jpg",
-    "country": "China",
-    "_date": "1560",
-    "creators": [
-      "Xie Shichen"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "明 謝時臣 四時佳興圖 軸 四幅"
+    },
+    {
+      "label": "description_en",
+      "value": "Four Seasons of Joy and Happiness, four scrolls"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:%E6%98%8E_%E8%AC%9D%E6%99%82%E8%87%A3_%E5%9B%9B%E6%99%82%E4%BD%B3%E8%88%88%E5%9C%96_%E8%BB%B8_%E5%9B%9B%E5%B9%85-Landscapes_of_the_Four_Seasons_MET_DP227758.jpg"
+    },
+    {
+      "label": "country",
+      "value": "China"
+    },
+    {
+      "label": "_date",
+      "value": "1560"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Xie Shichen"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_12_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

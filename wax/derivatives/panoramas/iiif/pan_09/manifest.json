@@ -3,18 +3,42 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_09/manifest.json",
   "@type": "sc:Manifest",
   "label": "Maierspitze Panorama",
-  "metadata": {
-    "description_original": "Rundschau von der Maierspitze in Stubai aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1891 Band 22",
-    "description_en": "Review from the Maierspitze in Stubai from the magazine of the German and Austrian Alpine Association 1891 Volume 22",
-    "source": "https://commons.wikimedia.org/wiki/File:Rundschau_von_der_Maierspitze_in_Stubai.jpg",
-    "location_name": "Maier Spitze",
-    "country": "Austria",
-    "coordinates": "47.01777138893695, 11.199655652082258",
-    "_date": "1891",
-    "creators": [
-      "Julius Ritter von Siegl"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Rundschau von der Maierspitze in Stubai aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1891 Band 22"
+    },
+    {
+      "label": "description_en",
+      "value": "Review from the Maierspitze in Stubai from the magazine of the German and Austrian Alpine Association 1891 Volume 22"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Rundschau_von_der_Maierspitze_in_Stubai.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Maier Spitze"
+    },
+    {
+      "label": "country",
+      "value": "Austria"
+    },
+    {
+      "label": "coordinates",
+      "value": "47.01777138893695, 11.199655652082258"
+    },
+    {
+      "label": "_date",
+      "value": "1891"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Julius Ritter von Siegl"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_09_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

@@ -3,18 +3,42 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_06/manifest.json",
   "@type": "sc:Manifest",
   "label": "Gamsfeld Panorama",
-  "metadata": {
-    "description_original": "Panorama vom Gamsfeld 2024 m (Salzkammergut) aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1883 Band 14",
-    "description_en": "Panorama from Gamsfeld 2024 m (Salzkammergut) from the magazine of the German and Austrian Alpine Association 1883 Volume 14",
-    "source": "https://commons.wikimedia.org/wiki/File:Panorama_vom_Gamsfeld_2024m.jpg",
-    "location_name": "Gamsfeld",
-    "country": "Austria",
-    "coordinates": "47.617215329583296, 13.483376171198822",
-    "_date": "1883",
-    "creators": [
-      "Anton Sattler"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Panorama vom Gamsfeld 2024 m (Salzkammergut) aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1883 Band 14"
+    },
+    {
+      "label": "description_en",
+      "value": "Panorama from Gamsfeld 2024 m (Salzkammergut) from the magazine of the German and Austrian Alpine Association 1883 Volume 14"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Panorama_vom_Gamsfeld_2024m.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Gamsfeld"
+    },
+    {
+      "label": "country",
+      "value": "Austria"
+    },
+    {
+      "label": "coordinates",
+      "value": "47.617215329583296, 13.483376171198822"
+    },
+    {
+      "label": "_date",
+      "value": "1883"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Anton Sattler"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_06_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

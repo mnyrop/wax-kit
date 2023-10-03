@@ -3,18 +3,42 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_01/manifest.json",
   "@type": "sc:Manifest",
   "label": "Mädelegabel Panorama",
-  "metadata": {
-    "description_original": "Aussicht von der Mädelegabel (2643 m) gegen Süden aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1880 Band 11",
-    "description_en": "View from the Mädelegabel (2643 m) towards the south from the magazine of the German and Austrian Alpine Association 1880 Volume 11",
-    "source": "https://commons.wikimedia.org/wiki/File:Aussicht_von_der_M%C3%A4delegabel_gegen_S%C3%BCden.jpg",
-    "location_name": "Mädelegabel",
-    "country": "Germany",
-    "coordinates": "47.30059611746923, 10.299935626987724",
-    "_date": "1880",
-    "creators": [
-      "Anton Sattler"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "Aussicht von der Mädelegabel (2643 m) gegen Süden aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1880 Band 11"
+    },
+    {
+      "label": "description_en",
+      "value": "View from the Mädelegabel (2643 m) towards the south from the magazine of the German and Austrian Alpine Association 1880 Volume 11"
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:Aussicht_von_der_M%C3%A4delegabel_gegen_S%C3%BCden.jpg"
+    },
+    {
+      "label": "location_name",
+      "value": "Mädelegabel"
+    },
+    {
+      "label": "country",
+      "value": "Germany"
+    },
+    {
+      "label": "coordinates",
+      "value": "47.30059611746923, 10.299935626987724"
+    },
+    {
+      "label": "_date",
+      "value": "1880"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Anton Sattler"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_01_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

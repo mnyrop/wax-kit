@@ -3,15 +3,30 @@
   "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_11/manifest.json",
   "@type": "sc:Manifest",
   "label": "Ceremony Landscape",
-  "metadata": {
-    "description_original": "日本語: 山水の図-松本市美術館 三顧の礼の一場面と思われる。",
-    "description_en": "Japanese: Landscape - Matsumoto City Museum of Art. This is thought to be a scene from the Three Examination Ceremonies.",
-    "source": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E6%B0%B4%E3%81%AE%E5%9B%B3-%E6%9D%BE%E6%9C%AC%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg",
-    "country": "Japan",
-    "creators": [
-      "Suzuki Goko"
-    ]
-  },
+  "metadata": [
+    {
+      "label": "description_original",
+      "value": "日本語: 山水の図-松本市美術館 三顧の礼の一場面と思われる。"
+    },
+    {
+      "label": "description_en",
+      "value": "Japanese: Landscape - Matsumoto City Museum of Art. This is thought to be a scene from the Three Examination Ceremonies."
+    },
+    {
+      "label": "source",
+      "value": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E6%B0%B4%E3%81%AE%E5%9B%B3-%E6%9D%BE%E6%9C%AC%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg"
+    },
+    {
+      "label": "country",
+      "value": "Japan"
+    },
+    {
+      "label": "creators",
+      "value": [
+        "Suzuki Goko"
+      ]
+    }
+  ],
   "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_11_0/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
