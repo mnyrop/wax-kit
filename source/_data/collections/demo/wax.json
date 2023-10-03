@@ -3,8 +3,6 @@
     "pid": "obj1",
     "label": "The Dala'il al-Khayrat of al-Juzuli",
     "order": "00",
-    "thumbnail": "/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj1/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Al-Hajj Hafiz Muhammad Nuri",
@@ -22,24 +20,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj1.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj1/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj1/manifest.json"
+    }
   },
   "obj2": {
     "pid": "obj2",
     "label": "Sulwan Al-Muta'a",
     "order": "01",
-    "thumbnail": "/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj2/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -54,24 +42,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj2.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj2/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj2/manifest.json"
+    }
   },
   "obj3": {
     "pid": "obj3",
     "label": "Map of the World",
     "order": "02",
-    "thumbnail": "/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj3/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -85,24 +63,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj3.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj3/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj3/manifest.json"
+    }
   },
   "obj4": {
     "pid": "obj4",
     "label": "Faridun crosses the River Dijla, fol. 33v",
     "order": "03",
-    "thumbnail": "/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj4/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -119,24 +87,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj4.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj4/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj4/manifest.json"
+    }
   },
   "obj5": {
     "pid": "obj5",
     "label": "Panel from Iran",
     "order": "04",
-    "thumbnail": "/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj5/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -152,24 +110,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj5.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj5/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj5/manifest.json"
+    }
   },
   "obj6": {
     "pid": "obj6",
     "label": "Diwan of Jami Manuscript",
     "order": "05",
-    "thumbnail": "/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj6/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -184,24 +132,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj6.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj6/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj6/manifest.json"
+    }
   },
   "obj7": {
     "pid": "obj7",
     "label": "Page from the Shahnama",
     "order": "06",
-    "thumbnail": "/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj7/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -218,24 +156,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj7.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj7/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj7/manifest.json"
+    }
   },
   "obj8": {
     "pid": "obj8",
     "label": "Silk Tapestry Depicting the story of Leila and Majnun",
     "order": "07",
-    "thumbnail": "/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj8/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -250,24 +178,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj8.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj8/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj8/manifest.json"
+    }
   },
   "obj9": {
     "pid": "obj9",
     "label": "Portrait of Fath 'Ali Shah",
     "order": "08",
-    "thumbnail": "/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj9/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Mihr 'Ali",
@@ -281,24 +199,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj9.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj9/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj9/manifest.json"
+    }
   },
   "obj10": {
     "pid": "obj10",
     "label": "Portrait of Hasan 'Ali Mirza Shuja al-Saltana",
     "order": "09",
-    "thumbnail": "/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj10/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -312,24 +220,14 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj10.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj10/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj10/manifest.json"
+    }
   },
   "obj11": {
     "pid": "obj11",
     "label": "Portrait of Sheikh Ali Mirza",
     "order": "10",
-    "thumbnail": "/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj11/0/full_image.jpg",
     "is_paged": false,
     "metadata": {
       "artist": "Unknown",
@@ -343,25 +241,15 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj11.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj11/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj11/manifest.json"
+    }
   },
   "obj12": {
     "pid": "obj12",
     "label": "Excerpt from 'The Book of Horses' (فَرَس نامه [رسالة في الخيول)",
     "order": "11",
-    "thumbnail": "/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg",
-    "full_image": "/wax/derivatives/demo/simple/obj12/0/full_image.jpg",
-    "is_paged": true,
+    "is_paged": false,
     "metadata": {
       "artist": "Bahādur Fīrūz, ʻAbd Allāh Khān",
       "location": "Middle East and North Africa",
@@ -374,41 +262,8 @@
       ]
     },
     "assets": {
-      "0": "source/_data/collections/demo/assets/obj12/0.jpg",
-      "1": "source/_data/collections/demo/assets/obj12/1.jpg",
-      "2": "source/_data/collections/demo/assets/obj12/2.jpg",
-      "3": "source/_data/collections/demo/assets/obj12/3.jpg",
-      "4": "source/_data/collections/demo/assets/obj12/4.jpg",
-      "5": "source/_data/collections/demo/assets/obj12/5.jpg"
     },
     "derivatives": {
-      "simple": {
-        "0": {
-          "full_image": "/wax/derivatives/demo/simple/obj12/0/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg"
-        },
-        "1": {
-          "full_image": "/wax/derivatives/demo/simple/obj12/1/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj12/1/thumbnail.jpg"
-        },
-        "2": {
-          "full_image": "/wax/derivatives/demo/simple/obj12/2/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj12/2/thumbnail.jpg"
-        },
-        "3": {
-          "full_image": "/wax/derivatives/demo/simple/obj12/3/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj12/3/thumbnail.jpg"
-        },
-        "4": {
-          "full_image": "/wax/derivatives/demo/simple/obj12/4/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj12/4/thumbnail.jpg"
-        },
-        "5": {
-          "full_image": "/wax/derivatives/demo/simple/obj12/5/full_image.jpg",
-          "thumbnail": "/wax/derivatives/demo/simple/obj12/5/thumbnail.jpg"
-        }
-      }
-    },
-    "iiif_manifest": "/wax/derivatives/demo/iiif/obj12/manifest.json"
+    }
   }
 }

@@ -2,8 +2,8 @@
 layout: page
 show_title: false
 banner:
-  collection: demo
-  pid: obj10
+  collection: panoramas
+  pid: pan_02
   y: 25%
   clickable: yes
   height: '500px'
@@ -15,5 +15,4 @@ The collection demo in this demo are from The Museum of Islamic Art, Qatar, (cou
 
 ### Browse the Collection
 
-#### By Item Type
-{% include collection_gallery.html facet_by='object_type' collection='demo' %}
+{% include collection_gallery.html collection='panoramas' %}

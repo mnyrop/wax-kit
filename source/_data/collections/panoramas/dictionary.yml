@@ -1,0 +1,21 @@
+pid:
+  label: 'Item ID'
+label:
+  label: 'Label'
+description_en:
+  label: 'Description'
+description_original:
+  label: 'Description (Untranslated)'
+_date:
+  label: 'Date'
+source:
+  label: 'Original Source'
+location_name:
+  label: 'Location'
+country:
+  label: 'Location (Country)'
+coordinates:
+  label: 'Location (Coordinates)'
+creators:
+  label: 'Creators'
+  array_split: ';'

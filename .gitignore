@@ -31,6 +31,7 @@ _site
 
 wax-theme
 wax-cli
+wax_iiif
 
 derivatives/iiif
 source/wax/derivatives

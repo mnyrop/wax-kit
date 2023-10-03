@@ -6,13 +6,12 @@ copyright:        ''
 
 theme: wax-theme
 source: source
-collections_dir: _collections
 
 collections:
-  demo:
+  panoramas:
     output: true
     build:
       simple_images:
-      pages:
       iiif:
+      pages:
 
