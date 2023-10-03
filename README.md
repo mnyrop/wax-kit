@@ -4,7 +4,7 @@
 > - *Search build*
 > - *Clobber individual item*
 > - *Build individual item*
-> - *Metadata pipe into IIIF manifest*
+> - ~*Metadata pipe into IIIF manifest*~
 > - *Any theme updates beyond maintaining 1.0 behavior with cli changes*
 
 ## Test Drive
