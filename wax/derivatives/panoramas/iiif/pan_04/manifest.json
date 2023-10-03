@@ -1,0 +1,59 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_04/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Rosetta Panorama",
+  "metadata": {
+    "description_original": "Panorama der Rosetta in der Pala-Gruppe (Gruppe von Primör) 2810 m aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1884 Band 15",
+    "description_en": "Panorama of the Rosetta in the Pala Group (Primör Group) 2810 m from the magazine of the German and Austrian Alpine Association 1884 Volume 15",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_der_Rosetta_in_der_Pala-Gruppe.jpg",
+    "location_name": "Pale di San Martino",
+    "country": "Italy",
+    "coordinates": "46.27136222600771, 11.839077767054368",
+    "_date": "1884",
+    "creators": [
+      "Johannes Frischauf",
+      "  Julius Ritter von Siegl"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_04_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_04_0.json",
+          "label": "front",
+          "width": 19982,
+          "height": 2242,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_04_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "jpegload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 9991,
+                "height": 1121
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_04_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0/full/full/0/default.jpg"
+}

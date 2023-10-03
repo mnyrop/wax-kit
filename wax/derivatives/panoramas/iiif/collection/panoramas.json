@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/collection/panoramas.json",
+  "@type": "sc:Collection",
+  "label": "panoramas",
+  "manifests": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_01/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Mädelegabel Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_02/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Kreuzspitze Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_03/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Kreuzspitze Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_04/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Rosetta Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_05/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Raschötz Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_06/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Gamsfeld Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_07/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Rosenik Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_08/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Geometric Prospectivity of Snowy Mountains"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_09/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Maierspitze Panorama"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_10/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Landscape with a Solitary Traveler"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_11/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Ceremony Landscape"
+    },
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_12/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Landscapes of the Four Seasons "
+    }
+  ]
+}

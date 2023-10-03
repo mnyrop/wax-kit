@@ -1,0 +1,35 @@
+{
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_02_0.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_02_0.json",
+      "label": "front",
+      "width": 19976,
+      "height": 1098,
+      "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_02_0.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "pngload_source",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 9988,
+            "height": 549
+          },
+          "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_02_0.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

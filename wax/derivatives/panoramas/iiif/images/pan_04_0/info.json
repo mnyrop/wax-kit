@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_04_0",
+  "protocol": "http://iiif.io/api/image",
+  "width": 9991,
+  "height": 1121,
+  "sizes": [
+    {
+      "width": 9991,
+      "height": 1121
+    },
+    {
+      "width": 250,
+      "height": 28
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

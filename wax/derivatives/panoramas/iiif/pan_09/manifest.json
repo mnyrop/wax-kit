@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_09/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Maierspitze Panorama",
+  "metadata": {
+    "description_original": "Rundschau von der Maierspitze in Stubai aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1891 Band 22",
+    "description_en": "Review from the Maierspitze in Stubai from the magazine of the German and Austrian Alpine Association 1891 Volume 22",
+    "source": "https://commons.wikimedia.org/wiki/File:Rundschau_von_der_Maierspitze_in_Stubai.jpg",
+    "location_name": "Maier Spitze",
+    "country": "Austria",
+    "coordinates": "47.01777138893695, 11.199655652082258",
+    "_date": "1891",
+    "creators": [
+      "Julius Ritter von Siegl"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_09_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_09_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_09_0.json",
+          "label": "front",
+          "width": 20000,
+          "height": 1788,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_09_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_09_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_09_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "jpegload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_09_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 10000,
+                "height": 894
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_09_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_09_0/full/full/0/default.jpg"
+}

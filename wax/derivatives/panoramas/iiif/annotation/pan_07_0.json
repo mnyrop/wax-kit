@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_07_0.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_07_0/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "jpegload_source",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_07_0",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 9989,
+    "height": 869
+  },
+  "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_07_0.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

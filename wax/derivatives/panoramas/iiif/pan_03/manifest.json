@@ -1,0 +1,60 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_03/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Kreuzspitze Panorama",
+  "metadata": {
+    "description_original": "Panorama von der Kreuzspitze im Jahr 1869. Lithografie nach einem Gemälde.",
+    "description_en": "Panorama from the Kreuzspitze in 1869. Lithograph based on a painting.",
+    "source": "https://commons.wikimedia.org/wiki/File:Kreuzspitze_Panorama_1869.png",
+    "location_name": "Kreuzspitze",
+    "country": "Germany",
+    "coordinates": "47.52746499392639, 10.918012640449884",
+    "_date": "1869",
+    "creators": [
+      "Carl Jordan",
+      " Georg Engelhardt",
+      " H. Schmidt"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_03_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_03_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_03_0.json",
+          "label": "front",
+          "width": 15072,
+          "height": 1992,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_03_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_03_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_03_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "pngload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_03_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 7536,
+                "height": 996
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_03_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_03_0/full/full/0/default.jpg"
+}

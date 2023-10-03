@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_01/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Mädelegabel Panorama",
+  "metadata": {
+    "description_original": "Aussicht von der Mädelegabel (2643 m) gegen Süden aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1880 Band 11",
+    "description_en": "View from the Mädelegabel (2643 m) towards the south from the magazine of the German and Austrian Alpine Association 1880 Volume 11",
+    "source": "https://commons.wikimedia.org/wiki/File:Aussicht_von_der_M%C3%A4delegabel_gegen_S%C3%BCden.jpg",
+    "location_name": "Mädelegabel",
+    "country": "Germany",
+    "coordinates": "47.30059611746923, 10.299935626987724",
+    "_date": "1880",
+    "creators": [
+      "Anton Sattler"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_01_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_01_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_01_0.json",
+          "label": "front",
+          "width": 9994,
+          "height": 1372,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_01_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_01_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_01_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "jpegload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_01_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 9994,
+                "height": 1372
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_01_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_01_0/full/full/0/default.jpg"
+}

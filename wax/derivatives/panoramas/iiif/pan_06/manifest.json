@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_06/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Gamsfeld Panorama",
+  "metadata": {
+    "description_original": "Panorama vom Gamsfeld 2024 m (Salzkammergut) aus Zeitschrift des Deutschen und Oesterreichischen Alpenvereins 1883 Band 14",
+    "description_en": "Panorama from Gamsfeld 2024 m (Salzkammergut) from the magazine of the German and Austrian Alpine Association 1883 Volume 14",
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_vom_Gamsfeld_2024m.jpg",
+    "location_name": "Gamsfeld",
+    "country": "Austria",
+    "coordinates": "47.617215329583296, 13.483376171198822",
+    "_date": "1883",
+    "creators": [
+      "Anton Sattler"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_06_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_06_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_06_0.json",
+          "label": "front",
+          "width": 19994,
+          "height": 1944,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_06_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_06_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_06_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "jpegload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_06_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 9997,
+                "height": 972
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_06_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_06_0/full/full/0/default.jpg"
+}

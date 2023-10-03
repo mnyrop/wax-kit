@@ -1,0 +1,55 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_11/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Ceremony Landscape",
+  "metadata": {
+    "description_original": "日本語: 山水の図-松本市美術館 三顧の礼の一場面と思われる。",
+    "description_en": "Japanese: Landscape - Matsumoto City Museum of Art. This is thought to be a scene from the Three Examination Ceremonies.",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E6%B0%B4%E3%81%AE%E5%9B%B3-%E6%9D%BE%E6%9C%AC%E5%B8%82%E7%BE%8E%E8%A1%93%E9%A4%A8.jpg",
+    "country": "Japan",
+    "creators": [
+      "Suzuki Goko"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_11_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_11_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_11_0.json",
+          "label": "front",
+          "width": 1428,
+          "height": 4644,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_11_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_11_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_11_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "jpegload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_11_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1428,
+                "height": 4644
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_11_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_11_0/full/full/0/default.jpg"
+}

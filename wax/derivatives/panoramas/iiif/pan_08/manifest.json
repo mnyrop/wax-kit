@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_08/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Geometric Prospectivity of Snowy Mountains",
+  "metadata": {
+    "description_original": "Prospect géométrique des montagnes neigées",
+    "description_en": "Geometric prospectivity of snowy mountains",
+    "source": "https://commons.wikimedia.org/wiki/File:Prospect_g%C3%A9om%C3%A9trique.jpg",
+    "location_name": "Pilatus",
+    "country": "Switzerland",
+    "coordinates": "46.98055839611903, 8.254469831908128",
+    "_date": "1755",
+    "creators": [
+      "Jacques-Barthélemy Micheli du Crest"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_08_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_08_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_08_0.json",
+          "label": "front",
+          "width": 7910,
+          "height": 2538,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_08_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_08_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_08_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "jpegload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_08_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 7910,
+                "height": 2538
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_08_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_08_0/full/full/0/default.jpg"
+}

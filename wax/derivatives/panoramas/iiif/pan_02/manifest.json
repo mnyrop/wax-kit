@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/pan_02/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Kreuzspitze Panorama",
+  "metadata": {
+    "description_original": "Panorama von der Kreuzspitze. Gemälde von Carl (Carlo) Brizzi",
+    "description_en": "Panorama from the Kreuzspitze. Painting by Carl (Carlo) Brizzi",
+    "source": "https://commons.wikimedia.org/wiki/File:Brizzi_Kreuzspitze_Panorama.png",
+    "location_name": "Kreuzspitze",
+    "country": "Germany",
+    "coordinates": "47.52746499392639, 10.918012640449884",
+    "_date": "1868",
+    "creators": [
+      "Carl Brizzi"
+    ]
+  },
+  "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/sequence/pan_02_0.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_02_0.json",
+          "label": "front",
+          "width": 19976,
+          "height": 1098,
+          "thumbnail": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/annotation/pan_02_0.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "pngload_source",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 9988,
+                "height": 549
+              },
+              "on": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/canvas/pan_02_0.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/iiif/images/pan_02_0/full/full/0/default.jpg"
+}

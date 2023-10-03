@@ -16,7 +16,7 @@
 
 
   <body>
-    <time datetime='2023-09-27 22:00'></time>
+    <time datetime='2023-10-03 20:49'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand' href="https://mnyrop.github.io/wax-kit/" title='Home'>
@@ -85,39 +85,42 @@
 <p>This site’s sample collection comprises a set of objects, each of which is represented by one or more images. The collection demo in this demo are from The Museum of Islamic Art, Qatar, (courtesy of <a href="https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar">WikiMedia</a> and <a href="https://www.google.com/culturalinstitute/about/artproject/">Google Art Project</a>) and The Qatar National Library (via <a href="https://www.wdl.org/en/">World Digital Library</a>).</p>
 
 <h2 id="by-location">By Location</h2>
+<blockquote>
+  <p><em>With buttons!</em></p>
+</blockquote>
 
-<div id="facet-by-location-collection-demo-container" class="wax-gallery-container full-width">
+<div id="facet-by-country-collection-panoramas-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
     
-    <div id="facet-by-location-collection-demo-facet-buttons" class="facet-buttons"></div>
+    <div id="facet-by-country-collection-panoramas-facet-buttons" class="facet-buttons"></div>
     
-    <div id="wax-gallery-facet-by-location-collection-demo" class="wax-gallery"></div>
+    <div id="wax-gallery-facet-by-country-collection-panoramas" class="wax-gallery"></div>
   </div>
 </div>
 
 <script type="text/javascript">
     $( document ).ready(function() {
-      let container = $('#facet-by-location-collection-demo-container');
-      let gallery = $('#wax-gallery-facet-by-location-collection-demo');
-      let buttonDiv = $('#facet-by-location-collection-demo-facet-buttons');
+      let container = $('#facet-by-country-collection-panoramas-container');
+      let gallery = $('#wax-gallery-facet-by-country-collection-panoramas');
+      let buttonDiv = $('#facet-by-country-collection-panoramas-facet-buttons');
 
 
-      gallery.append("<div class='gallery-item turkey all'><a href='https://mnyrop.github.io/wax-kit/demo/obj1.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg' alt='The Dala&#39;il al-Khayrat of al-Juzuli'/><div class='overlay'><p class='info'>The Dala&#39;il al-Khayrat of al-Juzuli</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg' alt='Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana'/><div class='overlay'><p class='info'>Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg' alt='Portrait of Sheikh Ali Mirza'/><div class='overlay'><p class='info'>Portrait of Sheikh Ali Mirza</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item middle-east-and-north-africa all'><a href='https://mnyrop.github.io/wax-kit/demo/obj12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg' alt='Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)'/><div class='overlay'><p class='info'>Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item egypt all'><a href='https://mnyrop.github.io/wax-kit/demo/obj2.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg' alt='Sulwan Al-Muta&#39;a'/><div class='overlay'><p class='info'>Sulwan Al-Muta&#39;a</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item egypt all'><a href='https://mnyrop.github.io/wax-kit/demo/obj3.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg' alt='Map of the World'/><div class='overlay'><p class='info'>Map of the World</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj4.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg' alt='Faridun crosses the River Dijla, fol. 33v'/><div class='overlay'><p class='info'>Faridun crosses the River Dijla, fol. 33v</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj5.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg' alt='Panel from Iran'/><div class='overlay'><p class='info'>Panel from Iran</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj6.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg' alt='Diwan of Jami Manuscript'/><div class='overlay'><p class='info'>Diwan of Jami Manuscript</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj7.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg' alt='Page from the Shahnama'/><div class='overlay'><p class='info'>Page from the Shahnama</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj8.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg' alt='Silk Tapestry Depicting the story of Leila and Majnun'/><div class='overlay'><p class='info'>Silk Tapestry Depicting the story of Leila and Majnun</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item iran all'><a href='https://mnyrop.github.io/wax-kit/demo/obj9.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg' alt='Portrait of Fath &#39;Ali Shah'/><div class='overlay'><p class='info'>Portrait of Fath &#39;Ali Shah</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item germany all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_01.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_01/0/thumbnail.jpg' alt='Mädelegabel Panorama'/><div class='overlay'><p class='info'>Mädelegabel Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item germany all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_02.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_02/0/thumbnail.jpg' alt='Kreuzspitze Panorama'/><div class='overlay'><p class='info'>Kreuzspitze Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item germany all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_03.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_03/0/thumbnail.jpg' alt='Kreuzspitze Panorama'/><div class='overlay'><p class='info'>Kreuzspitze Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item italy all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_04.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_04/0/thumbnail.jpg' alt='Rosetta Panorama'/><div class='overlay'><p class='info'>Rosetta Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item italy all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_05.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_05/0/thumbnail.jpg' alt='Raschötz Panorama'/><div class='overlay'><p class='info'>Raschötz Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item austria all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_06.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_06/0/thumbnail.jpg' alt='Gamsfeld Panorama'/><div class='overlay'><p class='info'>Gamsfeld Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item austria all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_07.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_07/0/thumbnail.jpg' alt='Rosenik Panorama'/><div class='overlay'><p class='info'>Rosenik Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item switzerland all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_08.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_08/0/thumbnail.jpg' alt='Geometric Prospectivity of Snowy Mountains'/><div class='overlay'><p class='info'>Geometric Prospectivity of Snowy Mountains</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item austria all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_09.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_09/0/thumbnail.jpg' alt='Maierspitze Panorama'/><div class='overlay'><p class='info'>Maierspitze Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item japan all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_10/0/thumbnail.jpg' alt='Landscape with a Solitary Traveler'/><div class='overlay'><p class='info'>Landscape with a Solitary Traveler</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item japan all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_11/0/thumbnail.jpg' alt='Ceremony Landscape'/><div class='overlay'><p class='info'>Ceremony Landscape</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item china all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_12/0/thumbnail.jpg' alt='Landscapes of the Four Seasons '/><div class='overlay'><p class='info'>Landscapes of the Four Seasons </p></div></div></a></div>");
       
 
       
-        var facets = Array.from(new Set(['turkey', 'iran', 'iran', 'middle-east-and-north-africa', 'egypt', 'egypt', 'iran', 'iran', 'iran', 'iran', 'iran', 'iran']));
+        var facets = Array.from(new Set(['germany', 'germany', 'germany', 'italy', 'italy', 'austria', 'austria', 'switzerland', 'austria', 'japan', 'japan', 'china']));
         buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
 
         for (i in facets) {
@@ -125,148 +128,112 @@
         }
 
         $(document).ready(function(){
-          $("#facet-by-location-collection-demo-container .facet").click(function(){
+          $("#facet-by-country-collection-panoramas-container .facet").click(function(){
             var filterValue = $(this).attr('data-filter');
-            $('#facet-by-location-collection-demo-container .facet').removeClass('active');
+            $('#facet-by-country-collection-panoramas-container .facet').removeClass('active');
             $(this).addClass('active');
-            if(filterValue == 'all') { $('#facet-by-location-collection-demo-container .all').show('slow'); }
-            else { $('#facet-by-location-collection-demo-container .all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+            if(filterValue == 'all') { $('#facet-by-country-collection-panoramas-container .all').show('slow'); }
+            else { $('#facet-by-country-collection-panoramas-container .all').hide('slow'); $(`.${filterValue}`).show('slow'); }
           });
         });
       
     });
   </script>
 
-<h2 id="by-object-type">By Object Type</h2>
+<h2 id="by-location-1">By Location</h2>
+<blockquote>
+  <p><em>As static, embeddable galleries!</em></p>
+</blockquote>
 
-<h3 id="manuscripts">Manuscripts</h3>
+<h3 id="germany">Germany</h3>
 
-<div id="facet-by-object-type-only-manuscript-collection-demo-container" class="wax-gallery-container full-width">
+<div id="only-germany-facet-by-country-collection-panoramas-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
     
-    <div id="facet-by-object-type-only-manuscript-collection-demo-facet-buttons" class="facet-buttons"></div>
+    <div id="only-germany-facet-by-country-collection-panoramas-facet-buttons" class="facet-buttons"></div>
     
-    <div id="wax-gallery-facet-by-object-type-only-manuscript-collection-demo" class="wax-gallery"></div>
+    <div id="wax-gallery-only-germany-facet-by-country-collection-panoramas" class="wax-gallery"></div>
   </div>
 </div>
 
 <script type="text/javascript">
     $( document ).ready(function() {
-      let container = $('#facet-by-object-type-only-manuscript-collection-demo-container');
-      let gallery = $('#wax-gallery-facet-by-object-type-only-manuscript-collection-demo');
-      let buttonDiv = $('#facet-by-object-type-only-manuscript-collection-demo-facet-buttons');
+      let container = $('#only-germany-facet-by-country-collection-panoramas-container');
+      let gallery = $('#wax-gallery-only-germany-facet-by-country-collection-panoramas');
+      let buttonDiv = $('#only-germany-facet-by-country-collection-panoramas-facet-buttons');
 
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj1.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg' alt='The Dala&#39;il al-Khayrat of al-Juzuli'/><div class='overlay'><p class='info'>The Dala&#39;il al-Khayrat of al-Juzuli</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj2.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg' alt='Sulwan Al-Muta&#39;a'/><div class='overlay'><p class='info'>Sulwan Al-Muta&#39;a</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj3.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg' alt='Map of the World'/><div class='overlay'><p class='info'>Map of the World</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj4.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg' alt='Faridun crosses the River Dijla, fol. 33v'/><div class='overlay'><p class='info'>Faridun crosses the River Dijla, fol. 33v</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj5.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg' alt='Panel from Iran'/><div class='overlay'><p class='info'>Panel from Iran</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj6.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg' alt='Diwan of Jami Manuscript'/><div class='overlay'><p class='info'>Diwan of Jami Manuscript</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj7.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg' alt='Page from the Shahnama'/><div class='overlay'><p class='info'>Page from the Shahnama</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj8.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg' alt='Silk Tapestry Depicting the story of Leila and Majnun'/><div class='overlay'><p class='info'>Silk Tapestry Depicting the story of Leila and Majnun</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj9.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg' alt='Portrait of Fath &#39;Ali Shah'/><div class='overlay'><p class='info'>Portrait of Fath &#39;Ali Shah</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg' alt='Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana'/><div class='overlay'><p class='info'>Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg' alt='Portrait of Sheikh Ali Mirza'/><div class='overlay'><p class='info'>Portrait of Sheikh Ali Mirza</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg' alt='Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)'/><div class='overlay'><p class='info'>Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_01.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_01/0/thumbnail.jpg' alt='Mädelegabel Panorama'/><div class='overlay'><p class='info'>Mädelegabel Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_02.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_02/0/thumbnail.jpg' alt='Kreuzspitze Panorama'/><div class='overlay'><p class='info'>Kreuzspitze Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_03.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_03/0/thumbnail.jpg' alt='Kreuzspitze Panorama'/><div class='overlay'><p class='info'>Kreuzspitze Panorama</p></div></div></a></div>");
       
     });
   </script>
 
-<h3 id="portraits">Portraits</h3>
+<h3 id="italy">Italy</h3>
 
-<div id="facet-by-object-type-only-portrait-collection-demo-container" class="wax-gallery-container full-width">
+<div id="only-italy-facet-by-country-collection-panoramas-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
     
-    <div id="facet-by-object-type-only-portrait-collection-demo-facet-buttons" class="facet-buttons"></div>
+    <div id="only-italy-facet-by-country-collection-panoramas-facet-buttons" class="facet-buttons"></div>
     
-    <div id="wax-gallery-facet-by-object-type-only-portrait-collection-demo" class="wax-gallery"></div>
+    <div id="wax-gallery-only-italy-facet-by-country-collection-panoramas" class="wax-gallery"></div>
   </div>
 </div>
 
 <script type="text/javascript">
     $( document ).ready(function() {
-      let container = $('#facet-by-object-type-only-portrait-collection-demo-container');
-      let gallery = $('#wax-gallery-facet-by-object-type-only-portrait-collection-demo');
-      let buttonDiv = $('#facet-by-object-type-only-portrait-collection-demo-facet-buttons');
+      let container = $('#only-italy-facet-by-country-collection-panoramas-container');
+      let gallery = $('#wax-gallery-only-italy-facet-by-country-collection-panoramas');
+      let buttonDiv = $('#only-italy-facet-by-country-collection-panoramas-facet-buttons');
 
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj1.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg' alt='The Dala&#39;il al-Khayrat of al-Juzuli'/><div class='overlay'><p class='info'>The Dala&#39;il al-Khayrat of al-Juzuli</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj2.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg' alt='Sulwan Al-Muta&#39;a'/><div class='overlay'><p class='info'>Sulwan Al-Muta&#39;a</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj3.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg' alt='Map of the World'/><div class='overlay'><p class='info'>Map of the World</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj4.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg' alt='Faridun crosses the River Dijla, fol. 33v'/><div class='overlay'><p class='info'>Faridun crosses the River Dijla, fol. 33v</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj5.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg' alt='Panel from Iran'/><div class='overlay'><p class='info'>Panel from Iran</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj6.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg' alt='Diwan of Jami Manuscript'/><div class='overlay'><p class='info'>Diwan of Jami Manuscript</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj7.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg' alt='Page from the Shahnama'/><div class='overlay'><p class='info'>Page from the Shahnama</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj8.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg' alt='Silk Tapestry Depicting the story of Leila and Majnun'/><div class='overlay'><p class='info'>Silk Tapestry Depicting the story of Leila and Majnun</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj9.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg' alt='Portrait of Fath &#39;Ali Shah'/><div class='overlay'><p class='info'>Portrait of Fath &#39;Ali Shah</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg' alt='Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana'/><div class='overlay'><p class='info'>Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg' alt='Portrait of Sheikh Ali Mirza'/><div class='overlay'><p class='info'>Portrait of Sheikh Ali Mirza</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg' alt='Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)'/><div class='overlay'><p class='info'>Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_04.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_04/0/thumbnail.jpg' alt='Rosetta Panorama'/><div class='overlay'><p class='info'>Rosetta Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_05.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_05/0/thumbnail.jpg' alt='Raschötz Panorama'/><div class='overlay'><p class='info'>Raschötz Panorama</p></div></div></a></div>");
       
     });
   </script>
 
-<h3 id="maps">Maps</h3>
+<h3 id="austria">Austria</h3>
 
-<div id="facet-by-object-type-only-map-collection-demo-container" class="wax-gallery-container full-width">
+<div id="only-austria-facet-by-country-collection-panoramas-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
     
-    <div id="facet-by-object-type-only-map-collection-demo-facet-buttons" class="facet-buttons"></div>
+    <div id="only-austria-facet-by-country-collection-panoramas-facet-buttons" class="facet-buttons"></div>
     
-    <div id="wax-gallery-facet-by-object-type-only-map-collection-demo" class="wax-gallery"></div>
+    <div id="wax-gallery-only-austria-facet-by-country-collection-panoramas" class="wax-gallery"></div>
   </div>
 </div>
 
 <script type="text/javascript">
     $( document ).ready(function() {
-      let container = $('#facet-by-object-type-only-map-collection-demo-container');
-      let gallery = $('#wax-gallery-facet-by-object-type-only-map-collection-demo');
-      let buttonDiv = $('#facet-by-object-type-only-map-collection-demo-facet-buttons');
+      let container = $('#only-austria-facet-by-country-collection-panoramas-container');
+      let gallery = $('#wax-gallery-only-austria-facet-by-country-collection-panoramas');
+      let buttonDiv = $('#only-austria-facet-by-country-collection-panoramas-facet-buttons');
 
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj1.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg' alt='The Dala&#39;il al-Khayrat of al-Juzuli'/><div class='overlay'><p class='info'>The Dala&#39;il al-Khayrat of al-Juzuli</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj2.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg' alt='Sulwan Al-Muta&#39;a'/><div class='overlay'><p class='info'>Sulwan Al-Muta&#39;a</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj3.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg' alt='Map of the World'/><div class='overlay'><p class='info'>Map of the World</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj4.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg' alt='Faridun crosses the River Dijla, fol. 33v'/><div class='overlay'><p class='info'>Faridun crosses the River Dijla, fol. 33v</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj5.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg' alt='Panel from Iran'/><div class='overlay'><p class='info'>Panel from Iran</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj6.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg' alt='Diwan of Jami Manuscript'/><div class='overlay'><p class='info'>Diwan of Jami Manuscript</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj7.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg' alt='Page from the Shahnama'/><div class='overlay'><p class='info'>Page from the Shahnama</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj8.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg' alt='Silk Tapestry Depicting the story of Leila and Majnun'/><div class='overlay'><p class='info'>Silk Tapestry Depicting the story of Leila and Majnun</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj9.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg' alt='Portrait of Fath &#39;Ali Shah'/><div class='overlay'><p class='info'>Portrait of Fath &#39;Ali Shah</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg' alt='Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana'/><div class='overlay'><p class='info'>Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg' alt='Portrait of Sheikh Ali Mirza'/><div class='overlay'><p class='info'>Portrait of Sheikh Ali Mirza</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg' alt='Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)'/><div class='overlay'><p class='info'>Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_06.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_06/0/thumbnail.jpg' alt='Gamsfeld Panorama'/><div class='overlay'><p class='info'>Gamsfeld Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_07.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_07/0/thumbnail.jpg' alt='Rosenik Panorama'/><div class='overlay'><p class='info'>Rosenik Panorama</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_09.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_09/0/thumbnail.jpg' alt='Maierspitze Panorama'/><div class='overlay'><p class='info'>Maierspitze Panorama</p></div></div></a></div>");
       
     });
   </script>
 
-<h3 id="panels">Panels</h3>
+<h3 id="switzerland">Switzerland</h3>
 
-<div id="facet-by-object-type-only-panel-collection-demo-container" class="wax-gallery-container full-width">
+<div id="only-switzerland-facet-by-country-collection-panoramas-container" class="wax-gallery-container full-width">
   <div class="wax-inline-container">
     
-    <div id="facet-by-object-type-only-panel-collection-demo-facet-buttons" class="facet-buttons"></div>
+    <div id="only-switzerland-facet-by-country-collection-panoramas-facet-buttons" class="facet-buttons"></div>
     
-    <div id="wax-gallery-facet-by-object-type-only-panel-collection-demo" class="wax-gallery"></div>
+    <div id="wax-gallery-only-switzerland-facet-by-country-collection-panoramas" class="wax-gallery"></div>
   </div>
 </div>
 
 <script type="text/javascript">
     $( document ).ready(function() {
-      let container = $('#facet-by-object-type-only-panel-collection-demo-container');
-      let gallery = $('#wax-gallery-facet-by-object-type-only-panel-collection-demo');
-      let buttonDiv = $('#facet-by-object-type-only-panel-collection-demo-facet-buttons');
+      let container = $('#only-switzerland-facet-by-country-collection-panoramas-container');
+      let gallery = $('#wax-gallery-only-switzerland-facet-by-country-collection-panoramas');
+      let buttonDiv = $('#only-switzerland-facet-by-country-collection-panoramas-facet-buttons');
 
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj1.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj1/0/thumbnail.jpg' alt='The Dala&#39;il al-Khayrat of al-Juzuli'/><div class='overlay'><p class='info'>The Dala&#39;il al-Khayrat of al-Juzuli</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj2.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj2/0/thumbnail.jpg' alt='Sulwan Al-Muta&#39;a'/><div class='overlay'><p class='info'>Sulwan Al-Muta&#39;a</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj3.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj3/0/thumbnail.jpg' alt='Map of the World'/><div class='overlay'><p class='info'>Map of the World</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj4.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj4/0/thumbnail.jpg' alt='Faridun crosses the River Dijla, fol. 33v'/><div class='overlay'><p class='info'>Faridun crosses the River Dijla, fol. 33v</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj5.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj5/0/thumbnail.jpg' alt='Panel from Iran'/><div class='overlay'><p class='info'>Panel from Iran</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj6.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj6/0/thumbnail.jpg' alt='Diwan of Jami Manuscript'/><div class='overlay'><p class='info'>Diwan of Jami Manuscript</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj7.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj7/0/thumbnail.jpg' alt='Page from the Shahnama'/><div class='overlay'><p class='info'>Page from the Shahnama</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj8.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj8/0/thumbnail.jpg' alt='Silk Tapestry Depicting the story of Leila and Majnun'/><div class='overlay'><p class='info'>Silk Tapestry Depicting the story of Leila and Majnun</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj9.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj9/0/thumbnail.jpg' alt='Portrait of Fath &#39;Ali Shah'/><div class='overlay'><p class='info'>Portrait of Fath &#39;Ali Shah</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj10.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj10/0/thumbnail.jpg' alt='Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana'/><div class='overlay'><p class='info'>Portrait of Hasan &#39;Ali Mirza Shuja al-Saltana</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj11.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj11/0/thumbnail.jpg' alt='Portrait of Sheikh Ali Mirza'/><div class='overlay'><p class='info'>Portrait of Sheikh Ali Mirza</p></div></div></a></div>");
-      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/demo/obj12.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/demo/simple/obj12/0/thumbnail.jpg' alt='Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)'/><div class='overlay'><p class='info'>Excerpt from &#39;The Book of Horses&#39; (فَرَس نامه [رسالة في الخيول)</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item  all'><a href='https://mnyrop.github.io/wax-kit/panoramas/pan_08.html'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='https://mnyrop.github.io/wax-kit/wax/derivatives/panoramas/simple/pan_08/0/thumbnail.jpg' alt='Geometric Prospectivity of Snowy Mountains'/><div class='overlay'><p class='info'>Geometric Prospectivity of Snowy Mountains</p></div></div></a></div>");
       
     });
   </script>
